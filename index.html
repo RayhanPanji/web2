@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWEB439</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#catalouge">Catalouge</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home">
+            <div class="home-text">
+                <h6>Kode Soal [i]</h6>
+                <h1>Responsi Pemrograman Web</h1>
+                <p>2300018439</p>
+                <a href="katalog.html" class="btn">
+                    Shop Now
+                </a>
+            </div>      
+        </section>
+        <section id="home2">
+            <h1>All Product 439.skincare</h1>
+            <p>Pilih paket skincare terbaikmu untuk wajah kinclong sepanjang hari.</p>
+        </section>
+        <section id="packages">
+            <h1>Our Packages</h1>
+            <div class="packages">
+                <div class="package">
+                    <div class="packimg">
+                        <img src="m1.png">
+                    </div>
+                    <h2>p1</h2>
+                    <p>Energizer Vacial Wash</p>
+                    <p>Harga: Rp. 500,000</p>
+                    <button class="order-btn" data-package="p1">Order Now</button>
+                </div>
+                <div class="package">
+                    <div class="packimg">
+                        <img src="m2.jpg">
+                    </div>
+                    <h2>p2</h2>
+                    <p>Energy Bright Cream</p>
+                    <p>Harga: Rp. 1,000,000</p>
+                    <button class="order-btn" data-package="p2">Order Now</button>
+                </div>
+                <div class="package">
+                    <div class="packimg">
+                        <img src="m3.jpg">
+                    </div>
+                    <h2>p3</h2>
+                    <p>Energy Serum</p>
+                    <p>Harga: Rp. 2,000,000</p>
+                    <button class="order-btn" data-package="p3">Order Now</button>
+                </div>
+            </div>
+        </section>
+        <section id="order">
+            <h1>Order Form</h1>
+            <form id="order-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+                <label for="package">Package:</label>
+                <select id="package" name="package">
+                    <option value="">Select Package</option>
+                    <option value="p1">Energizer Vacial Wash</option>
+                    <option value="p2">Energy Bright Cream</option>
+                    <option value="p3">Energy Serum</option>
+                </select><br><br>
+                <input type="submit" value="Place Order">
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p>©2024 RESPONSIPWEB | 439</p>
+    </footer>
+</body>
+</html>
